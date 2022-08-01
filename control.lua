@@ -261,10 +261,3 @@ script.on_event(defines.events.on_player_died,
     play_sound(MAP['lox'])  
   end
 )
-
-script.on_event(defines.events.on_player_joined_game,
-  function(event)
-    -- todo doesnt work, sleep N?
-    play_sound(MAP['pezdo'])
-  end
-)
